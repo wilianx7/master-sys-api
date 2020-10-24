@@ -44,7 +44,9 @@ class StudentController extends Controller
         $student = Student::query()->find($id);
 
         if ($student) {
-            $student->address()->update($request->input('address_data'));
+            if ($request->input('address_data')) {
+                $student->address()->update($request->input('address_data'));
+            }
 
             $studentData = $request->input('student_data');
 

@@ -23,7 +23,7 @@ class StudentRequest extends FormRequest
             'student_data.phone' => 'sometimes|nullable',
             'student_data.address_id' => 'sometimes|nullable',
 
-            'address_data' => 'required|array',
+            'address_data' => 'sometimes|nullable|array',
             'address_data.description' => 'sometimes|nullable',
             'address_data.cep' => 'sometimes|nullable',
             'address_data.city' => 'sometimes|nullable',

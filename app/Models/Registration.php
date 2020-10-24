@@ -10,6 +10,7 @@ class Registration extends Model
     use SoftDeletes;
 
     protected $fillable = [
+        'student_id',
         'plan_id',
         'due_date',
         'start_date',
@@ -18,11 +19,17 @@ class Registration extends Model
 
     protected $visible = [
         'id',
+        'student_id',
         'plan_id',
         'due_date',
         'start_date',
         'end_date',
     ];
+
+    public function student()
+    {
+        return $this->belongsTo(Student::class)->with(['address'])->withDefault();
+    }
 
     public function plan()
     {
