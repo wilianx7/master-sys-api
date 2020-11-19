@@ -12,7 +12,7 @@ class RegistrationResourceCollection extends ResourceCollection
         $registrations = [];
 
         foreach ($this->resource as $registration) {
-            $registration->plan['without_relations'] = true;
+            $registration->plan['from_registrations'] = true;
 
             $registrations[] = [
                 'id' => $registration->id,
