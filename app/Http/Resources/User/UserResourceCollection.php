@@ -13,7 +13,7 @@ class UserResourceCollection extends ResourceCollection
         foreach ($this->resource as $user) {
             $users[] = [
                 'id' => $user->id,
-                'name' => $user->name,
+                'login' => $user->login,
                 'password' => $user->password,
                 'created_at' => $user->created_at,
                 'updated_at' => $user->updated_at,
