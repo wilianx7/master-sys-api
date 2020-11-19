@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e085b3f-9694-4a7f-b15b-7a7bdad9d39d" name="Default Changelist" comment="" />
+    <list default="true" id="4e085b3f-9694-4a7f-b15b-7a7bdad9d39d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Plan/PlanResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Plan/PlanResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Registration/RegistrationResourceCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Registration/RegistrationResourceCollection.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,11 +145,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Wilian\PhpStormProjects\master-sys-api\app\Http\Resources\Plan" />
       <recent name="C:\Users\Wilian\PhpStormProjects\master-sys-api\app\Http\Resources\Modality" />
@@ -165,6 +176,11 @@
       <updated>1603450577046</updated>
       <workItem from="1603450578058" duration="5308000" />
       <workItem from="1603540527147" duration="14199000" />
+      <workItem from="1603564776231" duration="2883000" />
+      <workItem from="1603709270840" duration="18000" />
+      <workItem from="1605737045478" duration="622000" />
+      <workItem from="1605783543119" duration="35000" />
+      <workItem from="1605814562140" duration="1038000" />
     </task>
     <servers />
   </component>
@@ -188,5 +204,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603559512353" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605814566328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1366.768@0.0.1920.1040" timestamp="1605814566328" />
   </component>
 </project>
