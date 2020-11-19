@@ -13,13 +13,14 @@ class PlanResource extends JsonResource
 
         if ($this->resource->from_registrations) {
             $this->resource->modality['without_relations'] = true;
+            $this->resource->modality['from_plans'] = true;
         }
 
         return [
             'id' => $this->resource->id,
             'name' => $this->resource->name,
             'price' => $this->resource->price,
-            'modality' => $canLoadRelations ? [] : ModalityResource::make($this->resource->modality),
+            'modality' => $canLoadRelations ? ModalityResource::make($this->resource->modality) : [],
             'created_at' => $this->resource->created_at,
             'updated_at' => $this->resource->updated_at,
         ];
